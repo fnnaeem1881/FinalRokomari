@@ -1,0 +1,534 @@
+/* responsive design*/
+@media (min-width:1200px){
+    .top-menu-shop-cart {
+        width: 65%;
+        float: left;
+    }
+}
+
+@media (max-width:1200px){
+
+}
+
+/*--------------------------------------------------------*/
+/*--------------------------------------------------------*/
+
+@media (max-width: 1200px){
+    #top-catagory-list .col-md-2 {
+        margin-left: 32px;
+    }
+}
+
+/*--------------------------------------------------------*/
+/*--------------------------------------------------------*/
+
+@media (max-width:1100px){
+    .featuretext {
+        width: 80%;
+        float: left;
+        font-size: 62%;
+        padding: 0px 10px;
+    }
+}
+
+/*--------------------------------------------------------*/
+/*--------------------------------------------------------*/
+
+
+@media(max-width: 991px){
+
+    
+    .top-menu-search i {background: #0397d3;width: 10%;color: #ffffff;padding: 14px 15px;border: none;}
+    .navi ul {
+        display: block;
+        text-align: left;
+        padding-left: 0px;
+    }
+    .wrap .navi ul li {
+        list-style-type: none;
+        display: inline-block;
+        padding: 0px 10px;
+        font-family: lato;
+        font-weight: 100;
+    }
+    .wrap .navi ul li a {
+        font-size: 13.5px;
+        text-decoration: none;
+        color: black;
+        transition: all .3s;
+        display: inline-block;
+        padding-bottom: 6px;
+    }
+    .mega-box .content .row ul li a {
+        color: rgb(71, 59, 59);
+        font-size: 12px !important;
+    }
+    
+.content .row {
+    margin: 0px !important;
+    padding: 10px 40px;
+    font-size: 12px;
+  }
+  .hvr-sweep-to-right.top-catagory-list-btn {
+    padding: 15px 11px;
+    border-radius: 6px;
+    border: solid 1px #ddd;
+    box-shadow: 0 1px 1px 0 #d3d5d9;
+    background: #fff;
+    color: #7e7e7e;
+    margin-bottom: 20px;
+    font-size: 10px;
+}
+#top-catagory-list .col-md-2 {
+    margin-left: 23px;
+}
+.featureicon i {
+    font-size: 29px;
+    padding: 2px 0px;
+}
+
+
+
+}
+
+/*--------------------------------------------------------*/
+/*--------------------------------------------------------*/
+@media(min-width: 768px){
+  
+    #MobailHeader{
+        display: none;
+    }
+    #mobailsearchBar{
+        display: none;
+    }
+    #StcikyMobailNavbar {
+        display: none;
+    }
+}
+
+@media(max-width: 767px){
+    #SticyHeder{
+        display: none;
+    }
+  
+    #DesktopHeader{
+        display: none;
+    }
+    .book-orginal-price p {
+        padding-left: 25px;
+        font-weight: bold;
+    }
+    .container.NivoContainer {
+        width: 100% !important;
+        max-width: 100%;
+    }
+    #baner{
+        display: none;
+    }
+    .slick-next.slick-arrow{
+        display: none!important;
+    }
+
+    .slick-prev.slick-arrow{
+        display: none!important;
+    }
+    #top-catagory-list .col-md-2 {
+        margin-left: 15px;
+        width: 30%;
+    }
+    #top-catagory-list .col-md-2:last-child {
+        display: none;
+    }
+    
+    .DesktopView.col-md-2:last-child {
+        display: block;
+    }
+    #MostRead .col-md-2 {
+        width: 33%;
+    }
+    #RecentlySoldProduct .col-md-6 {
+        width: 50%;
+    }
+    .ProductSetcionTitle h3 {
+        padding: 10px 30px;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: lato;
+    }
+    .SectionBancground .col-md-6 {
+        width: 50%;
+    }
+    .subscribetext h1 {
+        font-size: 16px;
+        font-weight: bold;
+        text-align: center;
+        color: #333333;
+    }
+    .SubscribeForm input {
+        padding: 10px 20px;
+        width: 55%;
+        border: solid 1px #ddd;
+        border-radius: 4px;
+    }
+    #rokomariFeture .col-md-3 {
+        width: 50%;
+    }
+    .featuretext {
+        width: 80%;
+        float: left;
+        font-size: 11px;
+        text-align: center;
+    }
+    .large-footer .container {
+        max-width: 100%;
+        padding: 0px 30px;
+    }
+    #ShopBy .col-md-4 {
+        width: 50%;
+    }
+    #AccrodingSection .col-md-4 {
+        padding-left: 0px;
+        margin-bottom: 20px;
+    }
+}
+
+/*--------------------------------------------------------*/
+/*--------------------------------------------------------*/
+
+
+
+/*--------------------------------------------------------*/
+/*--------------------------------------------------------*/
+
+
+@media(max-width: 575px){
+    .container{
+        width: 90%!important;
+        margin: auto!important;
+    }
+    .navBtn {
+        width: 10%;
+        float: left;
+    }
+    .mobail-NavLogo img {
+        width: 17%;
+        padding: 5px 0px;
+    }
+    .mobail-NavLogo {
+        width: 35%;
+        float: left;
+    }
+    .mobail-NavLogo img {
+        width: 65%;
+        padding: 5px 0px;
+    }
+    .mobail-cart-user {
+        width: 55%;
+        float: left;
+        padding-top: 4px;
+    }
+    .MobailSearchWrap input {
+        width: 85%;
+        border: solid #d1ddea 1px;
+            border-bottom-color: rgb(209, 221, 234);
+            border-bottom-style: solid;
+            border-bottom-width: 1px;
+        border-bottom-color: rgb(209, 221, 234);
+        border-bottom-style: solid;
+        border-bottom-width: 1px;
+        border-radius: 3px 0 0 3px !important;
+        border-bottom: 2px solid #ff9900;
+        transition: all cubic-bezier(0.445, 0.05, 0.55, 0.95);
+        height: 45px;
+        line-height: 45px;
+        text-align: left;
+        padding: 20px;
+        font-size: 16px;
+        font-family: 'Lato';
+        color: #a8a8a8d9;
+    }
+    .MobailSearchWrap i {
+        background: #0397d3;
+        width: 13%;
+        color: #ffffff;
+        padding: 15px 15px;
+        border: none;
+    }
+    #RecentlySoldProduct {
+        display: none;
+    }
+    .DesktopView{
+        display: none;
+    }
+     #Subscribe {
+    width: 100%;
+    background: #fff;
+    box-shadow: 0px 4px 6px -3px #9c9c9c;
+}
+    #Subscribe .SectionBancground{
+        width: 100%;
+        background: #fff;
+        box-shadow: none;
+    } 
+    .social-links {
+        display: none;
+    }
+    .footer-all-links {
+        display: none;
+    }
+    .facebook-page {
+        display: none;
+    }
+    .footer-basic-info {
+        width: 65%;
+        float: left;
+    }
+    .footer-logo {
+        width: 35% !important;
+        float: left;
+    }
+    .footer-logo img {
+        margin-top: 86%;
+        padding-right: 15px;
+    }
+    .payment-options-row {
+        display: none;
+    }
+    .company-summery-row {
+        display: none;
+    }
+    .title{
+        text-align: center;
+    }
+   
+}
+
+/*--------------------------------------------------------*/
+/*--------------------------------------------------------*/
+
+
+
+@media(min-width: 576px){
+   #mobailViewDeisgn{
+       display: none;
+   }
+   #MobailRecentView{
+    display: none;
+   }
+}
+
+/*--------------------------------------------------------*/
+/*--------------------------------------------------------*/
+
+@media(max-width:500px){
+
+    .Mobailbook-price {
+        width: 60%;
+        margin: auto;
+    }
+    .Mobailadd-toCard-btn {
+        width: 55%;
+        display: block;
+        margin: auto;
+        background: #fff;
+        border: solid 1px tomato;
+        padding: 5px;
+    }
+
+    #top-catagory-list .col-md-2 {
+        margin-left: 15px;
+        width: 44%;
+    }
+    #top-catagory-list .col-md-2:last-child {
+        display: block;
+    }
+    .SubscribeForm input {
+        padding: 6px 20px;
+        width: 50%;
+        border: solid 1px #ddd;
+        border-radius: 4px;
+        margin-bottom: 15px;
+    }
+    .maleBtnSubscribe.btn.btn-outline-primary {
+        padding: 5px 16px;
+        margin: 12px;
+            margin-top: 12px;
+        margin-top: 12px;
+        margin-top: 5px;
+    }
+    .FemaleBtnSubscribe.btn.btn-outline-primary {
+        padding: 5px 11px;
+        margin-top: -5px;
+        color: tomato;
+        border: solid 1px tomato !important;
+    }
+}
+/*--------------------------------------------------------*/
+/*--------------------------------------------------------*/
+
+
+@media(max-width:450px){
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+    .mobail-NavLogo {
+        width: 45%;
+        float: left;
+    }
+    .MobailSearchWrap i {
+        background: #0397d3;
+        width: 15%;
+        color: #ffffff;
+        padding: 15px 15px;
+        border: none;
+    }
+    .mobail-cart-user {
+        width: 45%;
+        float: left;
+    }
+    .MobailSearchWrap input {
+        width: 85%;
+        border: solid #d1ddea 1px;
+            border-bottom-color: rgb(209, 221, 234);
+            border-bottom-style: solid;
+            border-bottom-width: 1px;
+        border-bottom-color: rgb(209, 221, 234);
+        border-bottom-style: solid;
+        border-bottom-width: 1px;
+        border-radius: 3px 0 0 3px !important;
+        border-bottom: 2px solid #ff9900;
+        transition: all cubic-bezier(0.445, 0.05, 0.55, 0.95);
+        height: 45px;
+        line-height: 45px;
+        text-align: left;
+        padding: 20px;
+        font-size: 16px;
+        font-family: 'Lato';
+        color: #a8a8a8d9;
+    }
+    .MobailSideNavMenu {
+        padding-top: 25px; 
+   }
+   .book-orginal-price p {
+    padding-left: 100px;
+    font-weight: bold;
+}
+.book-wrapaper {
+    position: relative;
+    width: 100%;
+    height: 327px;
+    overflow: visible;
+}
+.Mobailadd-toCard-btn {
+    width: 70%;
+    display: block;
+    margin: auto;
+    background: #fff;
+    border: solid 1px tomato;
+    padding: 5px;
+}
+.Mobailbook-price {
+    width: 69%;
+    margin: auto;
+}
+.SubscribeForm input {
+    padding: 6px 20px;
+    width: 100%;
+    border: solid 1px #ddd;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+    
+}
+
+/*--------------------------------------------------------*/
+/*--------------------------------------------------------*/
+
+
+@media(max-width: 350px){
+    .img3 img {
+        position: absolute;
+        width: 62px;
+        height: 62px;
+        border: 2px solid #feb204;
+        border-radius: 50%;
+        top: 60px;
+        left: 225px;
+    }
+    .img1 img {
+        position: absolute;
+        width: 62px;
+        height: 62px;
+        border: 2px solid #feb204;
+        border-radius: 50%;
+        top: 50px;
+        left: 53px;
+    }
+    .navBtn {
+        width: 13%;
+        float: left;
+    }
+    .mobail-NavLogo {
+        width: 45%;
+        float: left;
+    }
+    .mobail-NavLogo img {
+        width: 90%;
+        padding: 5px 0px;
+    }
+    .mobail-cart-user {
+        width: 42%;
+        float: left;
+    }
+    .MobailSearchWrap input {
+        width: 75%;
+        border: solid #d1ddea 1px;
+            border-bottom-color: rgb(209, 221, 234);
+            border-bottom-style: solid;
+            border-bottom-width: 1px;
+        border-bottom-color: rgb(209, 221, 234);
+        border-bottom-style: solid;
+        border-bottom-width: 1px;
+        border-radius: 3px 0 0 3px !important;
+        border-bottom: 2px solid #ff9900;
+        transition: all cubic-bezier(0.445, 0.05, 0.55, 0.95);
+        height: 45px;
+        line-height: 45px;
+        text-align: left;
+        padding: 20px;
+        font-size: 16px;
+        font-family: 'Lato';
+        color: #a8a8a8d9;
+    }
+    .MobailSearchWrap i {
+        background: #0397d3;
+        width: 22%;
+        color: #ffffff;
+        padding: 15px 15px;
+        border: none;
+    }
+    .Mobailbook-price {
+        width: 90%;
+        margin: auto;
+    }
+    .Mobailadd-toCard-btn {
+        width: 85%;
+        display: block;
+        margin: auto;
+        background: #fff;
+        border: solid 1px tomato;
+        padding: 5px;
+    }
+    .hvr-sweep-to-right.top-catagory-list-btn {
+        padding: 15px 11px;
+        border-radius: 6px;
+        border: solid 1px #ddd;
+        box-shadow: 0 1px 1px 0 #d3d5d9;
+        background: #fff;
+        color: #7e7e7e;
+        margin-bottom: 20px;
+        font-size: 9px;
+    }
+}
+
+/*--------------------------------------------------------*/
+/*--------------------------------------------------------*/
